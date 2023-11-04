@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0e1014;
+}
+:root{
+    ---bg-color:#0e1014;
+    ---text-color: white;
+    ---btn-color: #626365;
+    ---card-text-color:#595f71;
+}
+.d_h-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.full-left-box{
+    width: 96px;
+    height: 315px;
+    background-color: red;
+}
+.logo{
+    width: 96px;
+    height: 70px;
+    background-color: #595f71;
+}
