@@ -1,27 +1,219 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* background-color: #0e1014; */
+    /* background-image: url(/home-bg.webp); */
+    font-family: poppins;
+}
+body{
     background-color: #0e1014;
 }
-:root{
-    ---bg-color:#0e1014;
+
+:root {
+    ---bg-color: #0e1014;
     ---text-color: white;
     ---btn-color: #626365;
-    ---card-text-color:#595f71;
+    ---card-text-color: #595f71;
+    ---bg-color:#16181f;
 }
-.d_h-page{
+
+.d_h-page {
     display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* background-image: url(/arrya.mp4); */
+}
+
+.full-left-box {
+    width: 96px;
+    height: 315px;
+    /* background-color: red; */
+    margin-left: 15px;
+}
+
+.full-left-box {
+    margin-top: 10px;
+}
+
+.logo {
+    margin-top: 35px;
+    width: 96px;
+    height: 70px;
+    /* background-color: #595f71; */
+    cursor: pointer;
+    /* position: relative; */
+    /* bottom: 140px; */
+    /* margin-left: 2px; */
+}
+
+.Subscribe {
+    margin-top: 3px;
+    width: 80px;
+    height: 26px;
+    background-color: #363028;
+    font-size: 10px;
+    border: var(---btn-color);
+    border-radius: 30px;
+    cursor: pointer;
+    color: #deba71;
+    position: relative;
+    right: 8px;
+}
+
+.rgt-arrow {
+    width: 10px;
+    background-color: #363028;
+    position: relative;
+    top: 2px;
+}
+.nav-left{
+    margin-top: 150px;
+    position: sticky;
+}
+
+
+
+nav {
+    width: 96px;
+    height: 315px;
+    /* background-color: yellow; */
+    position: relative;
+    bottom: 105px;
+    display: grid;
     align-items: center;
     justify-content: space-between;
 }
-.full-left-box{
-    width: 96px;
-    height: 315px;
-    background-color: red;
+
+.img-menu {
+    /* margin-top: 400px; */
+
+    display: grid;
+    justify-content: space-between;
+    margin-left: 15px;
+
+
 }
-.logo{
-    width: 96px;
-    height: 70px;
-    background-color: #595f71;
+
+.img-menu:hover {
+    width: 300px;
+    /* background-color: #141519; */
+    /* opacity: 80%; */
+    position: sticky;
+    /* position: absolute; */
+
+
+}
+
+.menu-icon1 {
+    margin-top: 30px;
+}.menu-icon1:hover {
+    /* transition: ease-in 4s cubic-bezier(0.19, 1, 0.22, 1); */
+    background-image: url(/icons/user\ \(1\).png);
+    
+    
+    /* background-color: #141519; */
+}
+
+
+.menu-icon2 {
+    margin-top: 30px;
+}.menu-icon2:hover {
+    background-image: url(/icons/search\ \(1\).png);
+    
+   
+}
+
+.menu-icon3 {
+    margin-top: 30px;
+}
+
+.menu-icon4 {
+    margin-top: 30px;
+}.menu-icon4:hover {
+    background-image: url(/icons/tv-retro\ \(1\).png)
+    
+}
+
+.menu-icon5 {
+    margin-top: 30px;
+}.menu-icon5:hover {
+    background-image: url(/icons/play\ \(1\).png);
+    
+}
+
+.menu-icon6 {
+    margin-top: 30px;
+}.menu-icon6:hover {
+    background-image: url(/icons/tennis\ \(1\).png);
+    
+}
+.bg-pr-bg{
+    width: 90%;
+    height: 250px;
+    /* background-color:#16181f; */
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(---bg-color);
+}
+.top-pr{
+    width: 592px;
+    height: 250px;
+    border-radius: 20px 0 0 20px;
+    /* background-color: var(---bg-color); */
+}
+.title-pr{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* background-color: var(---bg-color); */
+}
+.logo-on{
+    width: 45px;
+    margin-left: 15px;
+    /* background-color: var(---bg-color); */
+}
+.ap-tt{
+    font-weight: 300;
+    color: white;
+    font-family: poppins;
+    /* background-color: var(---bg-color); */
+    font-size: 18px;
+
+
+}
+.ap-de{
+    font-family: poppins;
+    font-size: 16px;
+    color: var(---btn-color);
+    /* background-color: var(---bg-color); */
+}
+.title-pr{
+    margin-right: 380px;
+    position: relative;
+    bottom: 80px;
+    text-align: start;
+    /* background-color: var(---bg-color); */
+    
+}
+.ap-title{
+    margin-left: 15px;
+    position: relative;
+    top: 20px;
+}
+.Trailer{
+    font-size: 16px;
+    width: 150px;
+    font-weight: 300;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid #2a2c3a;
+    background-color: #2a2c3a;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 80px;
+    right: 55px;
 }
