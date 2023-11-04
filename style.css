@@ -235,3 +235,8 @@ nav {
 .video-effect{
     margin-top: 15px;
 }
+.ab-movie{
+    position: absolute;
+    top: 360px;
+    left: 130px;
+}
