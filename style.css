@@ -262,6 +262,8 @@ nav {
 .full-movie-box {
     width: 100%;
     height: 700px;
+    -webkit-mask-image: linear-gradient(#000 , rgba(0,0,0,0));
+    mask-image: linear-gradient(#000 , rgba(0,0,0,0));
 }
 
 .video-effect {
@@ -531,6 +533,11 @@ nav {
     border-right: 1px solid white;
     
 }
+
+.rgt{
+    margin-left: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;;
+}
 .movie-pre1{
     width: 60px;
     margin-left: 7px;
@@ -555,4 +562,62 @@ nav {
     width: 60px;
     margin-left: 7px;
     border-radius: 5px;
+}
+.movie-lst{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -11px;
+
+
+}
+.movie-lst-lrm{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.all-lst-lrm{
+    display: inline-block;
+    color: white;
+
+}
+.lrm h3{
+    color: white;
+}
+.lrm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.lrm h4{
+    margin-left: 1000px;
+    color: white;
+    position: relative;
+    /* bottom: 20px; */
+    opacity: 0;
+}
+.lft{
+    width: 14px;
+    opacity: 0;
+    /* width: 50%; */
+}.lrm h4:hover{
+    margin-left: 1000px;
+    color: white;
+    position: relative;
+    /* bottom: 20px; */
+    opacity: 100;
+}
+.lft:hover{
+    width: 14px;
+    opacity: 100;
+}
+.m1-lst{
+    margin-top: 15px;
+    width: 165px;
+    height: 220px;
+    /* transform: translate(-50%,-50%); */
+    clip: rect(0px,200px, 200px,0px);
+    margin-left: 7px;
 }
