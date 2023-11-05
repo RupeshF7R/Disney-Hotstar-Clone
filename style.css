@@ -571,13 +571,13 @@ nav {
 
 }
 .movie-lst-lrm{
-    display: grid;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     color: white;
 }
 .all-lst-lrm{
-    display: inline-block;
+    display: flex;
     color: white;
 
 }
@@ -598,6 +598,9 @@ nav {
     /* bottom: 20px; */
     opacity: 0;
 }
+/* .lft-all{
+    opacity: 100;
+} */
 .lft{
     width: 14px;
     opacity: 0;
@@ -620,4 +623,103 @@ nav {
     /* transform: translate(-50%,-50%); */
     clip: rect(0px,200px, 200px,0px);
     margin-left: 7px;
+}
+
+/* lllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll */
+.movie-lst-lrm1{
+    /* margin-top: 30px; */
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-top: -90px;
+    position: relative;
+    top: 130px;
+}
+.all-lst-lrm1{
+    display: inline-block;
+    color: white;
+
+}
+.lrm1 h3{
+    color: white;
+}
+.lrm1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+.lrm1 h4{
+    margin-left: 1000px;
+    color: white;
+    position: relative;
+    /* bottom: 20px; */
+    opacity: 0;
+}
+/* .lft-all{
+    opacity: 100;
+} */
+.lft1{
+    width: 14px;
+    opacity: 0;
+    /* width: 50%; */
+}.lrm1 h4:hover{
+    margin-left: 1000px;
+    color: white;
+    position: relative;
+    /* bottom: 20px; */
+    opacity: 100;
+}
+.lft1:hover{
+    width: 14px;
+    opacity: 100;
+}
+.m1-lst1{
+    margin-top: 15px;
+    width: 165px;
+    height: 220px;
+    /* transform: translate(-50%,-50%); */
+    clip: rect(0px,200px, 200px,0px);
+    margin-left: 7px;
+}
+.movie-lst1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -210px;
+    position: relative;
+    top: 130px;
+
+
+}
+.hov-1{
+    width: 302px;
+    height: 300px;
+    background-color: red;
+    opacity: 0%;
+    position: absolute;
+    top: 950px;
+    left: 135px;
+
+}
+.hov-1:hover{
+    width: 322px;
+    height: 320px;
+    transform: scale(1.1);
+    transition: all 4s cubic-bezier(0.19, 1, 0.22, 1);
+    opacity: 100%;
+}
+.hov-img{
+    width: 323px;
+    height: 160px;
+    border-radius: 10px 10px 0 0;
+
+}
+.langu{
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: white;
+    position: relative;
+    bottom: 165px;
 }
