@@ -769,3 +769,9 @@ nav {
 } 
 
 /* drhfdxdhgffhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh */
+.plau{
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    left: 102px;
+}
