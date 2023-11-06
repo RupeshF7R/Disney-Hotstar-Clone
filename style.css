@@ -723,3 +723,47 @@ nav {
     position: relative;
     bottom: 165px;
 }
+
+ .title-mov {
+   position: absolute;
+    top: 165px;
+    left: 1px;
+    width: 400px;
+    right: 20px;
+    align-items: self-start;
+    display: flex;
+    width: 500px;
+    margin-left: 10px;
+
+
+}
+
+.title-mov ul {
+    display: flex;
+    font-weight: 500;
+    color: #C1C1C1;
+    margin-left: 2px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.title-mov li {
+    display: flex;
+    font-size: 11.8px;
+    font-weight: 500;
+    color: #fbfcfde1;
+    margin-left: 2px;
+    list-style-type: circle;
+    list-style: none;
+    letter-spacing: 0.2px;
+}
+.ua-box-mov button {
+    width: 70px;
+    height: 25px;
+    border: #494b4db9;
+    border-radius: 5px;
+    color: white;
+    background-color: #494b4db9;
+    font-weight: 500;
+} 
