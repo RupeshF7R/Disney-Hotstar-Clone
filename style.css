@@ -726,7 +726,7 @@ nav {
 
  .title-mov {
    position: absolute;
-    top: 165px;
+    /* botoom: 165px; */
     left: 1px;
     width: 400px;
     right: 20px;
@@ -772,6 +772,6 @@ nav {
 .plau{
     display: flex;
     position: relative;
-    bottom: 25px;
+    bottom: 20px;
     left: 102px;
 }
