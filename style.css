@@ -726,7 +726,7 @@ nav {
 
  .title-mov {
    position: absolute;
-    /* botoom: 165px; */
+    botoom: 165px;
     left: 1px;
     width: 400px;
     right: 20px;
